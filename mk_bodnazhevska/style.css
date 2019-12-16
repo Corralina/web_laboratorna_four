@@ -1,0 +1,236 @@
+body{
+	background: #ffef96;
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.name{
+	background: #50394c;
+	text-align: center;
+	padding: 5px;
+}
+
+.bos{
+	margin: auto;
+	overflow: hidden;
+	width: 800px;
+	height: 250px;
+	margin-top: 10px;
+
+	
+}
+
+#mega-slider {
+	position: relative;
+	width: 8000px;
+	height: 250px;
+	
+	
+	
+}
+
+.block-in {
+	display: inline-block;
+	width: 800px;
+	height: 250px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.block-in img {
+	height: 100%;
+	width: 100%;
+	/*width: 100%;*/
+}
+.but{
+
+	margin: auto;
+}
+p{
+	margin-top: 150px;
+	margin-left: 50px;
+	color: rgb(244, 233, 252);
+	font-size: 80px;
+}
+
+.bl{
+	display: block;
+}
+.bs{
+	display: none;
+}
+
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.menu button{
+	background: #50394c;
+	width: 20%;
+	height: 50px;
+	color: #b2b2b2;
+
+
+}
+
+.menu_menu{
+	display: flex;
+	flex-direction: row;
+}
+
+.menu_menu div{
+	width: 20%;
+	background: #50394c; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	position: absolute;
+	margin-top: 0%;
+
+}
+
+.menu_menu button{
+	width: 90%;
+	height: 35px;
+	margin: 1%;
+	background:  #b2b2b2;
+}
+
+.r_f{
+	display: none;	
+}
+.r_t{
+	display: block;
+	margin: 2%;
+
+}
+
+.rad{
+	position: absolute;
+	margin-top: -1000%;
+	margin-left: -1000%;
+}
+
+.r_label{
+	position: absolute;
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #50394c;
+    color: white;
+}
+
+
+.l_r_m{
+	margin-top: 10%;
+	margin-left: 50%;
+}
+
+.l_r_m1{
+	margin-top: 6%;
+	margin-left: 37%;
+}
+
+.l_r_m11{
+	margin-top: 4%;
+	margin-left: 20%;
+}
+
+.l_r_m12{
+	margin-top: 1%;
+	margin-left: 32%;
+}
+
+.l_r_m13{
+	margin-top: 2%;
+	margin-left: 45%;
+}
+
+
+
+
+
+
+.l_r_m111{
+	margin-top: 3%;
+	margin-left: 10%;
+}
+
+.l_r_m112{
+	margin-top: 0.5%;
+	margin-left: 17%;
+}
+
+.l_r_m113{
+	margin-top: 10%;
+	margin-left: 30%;
+}
+
+
+
+
+
+.l_r_m2{
+	margin-top: 16%;
+	margin-left: 22%;
+}
+
+.l_r_m21{
+	margin-top: 16%;
+	margin-left: 5%;
+}
+.l_r_m22{
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+.l_r_m23{
+	margin-top: 16%;
+	margin-left: 37%;
+}
+
+.l_r_m221{
+	margin-top: 6%;
+	margin-left: 4%;
+}
+
+.l_r_m222{
+	margin-top: 13%;
+	margin-left: 1%;
+}
+
+
+.l_l{
+	position: absolute;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+.l_ll{
+	position: absolute;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.map input:checked + label{
+        
+
+    }
+
+
+svg circle:hover{
+    /*transform: scale(1.6);*/
+    stroke: red;
+
+}

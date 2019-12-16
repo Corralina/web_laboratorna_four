@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.show{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home_a{
+    position: fixed;
+    font-size: 200%;
+    font-family: "Snell Roundhand", cursive;
+    color:gray;
+    text-decoration: none;
+    margin-left: 95vw;
+    
+}
+
+#myVideo{
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    /* height: 100vh; */
+    opacity: 40%;
+    margin-top: -19.6vh;
+
+
+}
+
+.header_text{
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(200, 195, 204, 0.6);
+}
+
+.name{
+    position: absolute;
+    z-index: 2; 
+    padding-top: 7vh;
+    padding-left: 30vw;
+    font-size: 850%;
+    font-family: "Snell Roundhand", cursive;
+    color: #563f46;
+}
+
+.head_menu{
+    position: absolute;
+    z-index: 1;
+    padding-top: 80vh;
+    width: 60vw;
+    padding-left: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.head_menu a{
+    font-size: 200%;
+    font-family: "Snell Roundhand", cursive;
+    color: #563f46;
+    text-decoration: none
+}
+
+.head_menu a:hover{
+    color: black;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+
+.info{
+    widows: 100vw;
+    height: 100vh;
+    background: #c8c3cc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.info_main{
+    width: 60vw;
+    height: 80vh;
+    margin-left: 20vw;
+    background: #563f46;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#photo{
+    margin-left: -10vh;
+}
+
+.inf_tex{
+    width: 30vw;
+    margin: 2%;
+    
+}
+
+.info_text{
+    font-size: 200%;
+    font-family: "Snell Roundhand", cursive;
+    color: #8ca3a3;
+}
+
+
+
+
+
+.galery{
+    widows: 100vw;
+    height: 100vh;
+    background: #c8c3cc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.bos{
+    width: 60vw;
+    height: 70vh;
+    margin-left: 20vw;
+    overflow: hidden;
+    border: 2 black solid;
+    
+}
+
+.block-in{
+    display: inline-block;
+    width: 60vw;
+    height: 70vh;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+    
+}
+
+#mega-slider{
+    position: relative;
+    width: 10000px;
+    height: 70vh;
+}
+
+.contact{
+    widows: 100vw;
+    height: 100vh;
+    background: #563f46;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.all_contact{
+    width: 60vw;
+    height: 80vh;
+    margin-left: 20vw;
+    background: #563f46;
+}
+
+.all_contact div{
+    display: inline-block;
+    width: 29vw;
+    height: 40vh;
+    color: #8ca3a3;
+    background: #563f46;
+    font-size: 200%;
+    font-family: "Snell Roundhand", cursive;
+    text-align: center;
+    
+}
+
+
+
