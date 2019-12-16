@@ -1,0 +1,80 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	
+ 	height: 97vh;
+ 	width: 97vw;
+ 	background-image: linear-gradient(#d6d4e0, #622569);
+}
+
+.name{
+	text-align: center;
+	margin: auto;
+}
+
+.content{
+    background-image: linear-gradient( #d6d4e0,#f4a688);
+	margin: auto;
+ 	height: 80vh;
+ 	width: 80vw;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+ 	align-items: center;
+
+}
+.block_1{
+	background-image: url("../img/1.png"),url("../img/2.png"),linear-gradient(to right,#b8a9c9, #622569);
+	background-repeat: no-repeat,
+      no-repeat;
+  	background-position: left top,bottom right;
+      background-size: 10vw,10vw, 20vw;
+
+	width: 20vw;
+	height: 60vh;
+	overflow: hidden;
+}
+.block_2{
+	background-image: url("../img/7.png"),url("../img/7.png"),url("../img/8.png"),url("../img/8.png"),linear-gradient(#b8a9c9, #622569);
+	background-repeat: repeat-y,
+      repeat-y, repeat-x, repeat-x;
+  	background-position: bottom right,bottom left, bottom right, top center;
+      background-size: 3vw,3vw, 10vw, 10vw, 30vw;
+
+	width: 30vw;
+	height: 60vh;
+	overflow: hidden;
+}
+.block_3{
+	background-image: url("../img/3.png"),url("../img/10.png"),url("../img/9.png"),url("../img/11.png"),linear-gradient(to left,#b8a9c9, #622569);
+	background-repeat: no-repeat,no-repeat, repeat-y,repeat-y,
+      no-repeat;
+  	background-position: center top,center bottom, bottom left, bottom right;
+      background-size: 12vw,10vw,5vw,5vw, 20vw;
+	width: 20vw;
+	height: 60vh;
+	overflow: hidden;
+}
+
+.block_1 div{
+	text-align: justify;
+	margin: 4vw;
+}
+
+.block_2 div{
+	margin: 3vw;
+	text-align: justify;
+}
+
+.block_3 div{
+	margin: 4.5vw;
+	text-align: justify;
+}
+h3{
+	text-align: center;
+}
+
+.show{
+	margin-left: 15%;
+}
+

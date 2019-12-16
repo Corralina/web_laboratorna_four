@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.wrap{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.logo{
+    width: 3vw;
+    height: 3vh;
+    padding: 2vw;
+    z-index: 4;
+}
+
+.menu{
+    position: absolute;
+    
+}
+.menu_div{
+    
+    padding-top: 4vw;
+    /*overflow: hidden;*/
+    height: 0vw;
+    display: flex;
+    flex-direction: column;
+}
+.menu_div button{
+    position: fixed;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    background: rgba(22, 22, 22, 1);
+    border: 0;
+    margin-top:-600px;
+    z-index: 3;
+}
+
+.menu_but_3{
+    margin-left: 45vw;
+}
+
+.menu_but_4{
+    margin-left: -45vw;
+}
+
+.content{
+    margin: auto;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cont{
+    width: 60vw;
+    text-align: center;
+    display: none;
+}
+
+#c_1{
+    font-size: 2.5vw;
+}
+#c_2{
+    font-size: 2.5vw;
+}
+#c_3{
+    font-size: 2.5vw;
+}
+#c_4{
+    font-size: 2.5vw;
+}
+
+
+.toop{
+    background: black;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 20%;
+    
+}
