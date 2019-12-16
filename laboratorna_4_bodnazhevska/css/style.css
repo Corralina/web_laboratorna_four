@@ -1,0 +1,107 @@
+body{
+	background: rgb(146, 87, 111);
+}
+
+.content{
+	display: flex;
+	justify-content: space-around;
+}
+
+.i_1{
+	width: 350px;
+	height: 200px;
+}
+
+.left{
+	background: rgba(246, 187, 211, 0.5);
+	width: 47%;
+	position: relative;
+	margin: 1px;
+	padding: 2px;
+
+}
+.left_rule{
+	width: 150px;
+	margin-top: 20px;
+}
+
+.button_left{
+	width: 70px;
+}
+.l_1{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 2px;
+}
+
+.l_2{
+	border: 1px solid #d4d4d4;
+  	width: 700px;
+  	height: 400px;
+}
+
+.r_img{
+	width: 50px;
+	height: 50px;
+}
+.rule_1{
+	display: flex;
+	justify-content: center;
+}
+.rule_2{
+	display: flex;
+	justify-content: space-between;
+}
+.rule_3{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.righ{
+	width: 47%;
+	background: rgba(246, 187, 211,0.5);
+	position: relative;
+	margin: 1px;
+	padding: 2px;
+}
+
+.i_2{
+	width: 350px;
+	height: 200px;
+}
+
+.r_1{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 2px;
+}
+
+.r_2{
+	border: 1px solid #d4d4d4;
+  	width: 700px;
+  	height: 400px;
+}
+
+.right_rule{
+	width: 150px;
+	margin-top: 20px;
+}
+
+
+.cube_bord {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 85px;
+  height: 50px;
+}
+
+.cube_bord_2 {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 85px;
+  height: 50px;
+}
